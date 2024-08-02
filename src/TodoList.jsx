@@ -59,7 +59,7 @@ const TodoList = () => {
   return (
     <>
       <div>
-        <h1>Imadeus Todo List</h1>
+        <h1>Todo List (React)</h1>
         <TaskForm handleAdd={handleAdd} />
         <h2>My Todos ({todos.length})</h2>
         <ul>
